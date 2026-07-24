@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ressources IA - Repères, outils et glossaire - AI cool</title>
+  <meta name="description" content="Les repères durables de L'IA à la cool : mini-histoire de l'IA, chiffres clés, usages concrets, outils, méthode de prompt, multimédia et glossaire.">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="favicon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="icon-spark" viewBox="0 0 24 24"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8L12 2z"/><path d="M19 15l.8 2.7L22 18.5l-2.2.8L19 22l-.8-2.7-2.2-.8 2.2-.8L19 15z"/></symbol>
+    <symbol id="icon-chip" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 1v4M15 1v4M9 19v4M15 19v4M1 9h4M1 15h4M19 9h4M19 15h4"/><path d="M10 10h4v4h-4z"/></symbol>
+    <symbol id="icon-layers" viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 12l9 5 9-5"/><path d="M3 16l9 5 9-5"/></symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 5-3 8.5-7 10-4-1.5-7-5-7-10V6l7-3z"/><path d="M9 12l2 2 4-5"/></symbol>
+    <symbol id="icon-graph" viewBox="0 0 24 24"><path d="M4 19V5"/><path d="M4 19h16"/><path d="M7 16l3-4 3 2 5-7"/></symbol>
+    <symbol id="icon-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.2 2.5 3.2 5.5 3.2 9S14.2 18.5 12 21"/><path d="M12 3c-2.2 2.5-3.2 5.5-3.2 9s1 6.5 3.2 9"/></symbol>
+    <symbol id="icon-tools" viewBox="0 0 24 24"><path d="M14 7l3-3 3 3-3 3"/><path d="M4 20l8.5-8.5"/><path d="M7 4l4 4"/><path d="M5 6l13 13"/></symbol>
+    <symbol id="icon-doc" viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></symbol>
+    <symbol id="icon-image" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="14" rx="2"/><circle cx="9" cy="10" r="1.5"/><path d="M5 17l5-5 4 4 2-2 3 3"/></symbol>
+    <symbol id="icon-people" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20c1-3.2 3-5 6-5s5 1.8 6 5"/><path d="M16 11c1.8.2 3.2 1.5 4 4"/></symbol>
+  </svg>
+
+  <nav class="site-nav" aria-label="Navigation principale">
+    <div class="nav-inner">
+      <a class="brand" href="index.html" aria-label="Accueil AI cool">
+        <img class="brand-logo" src="AIcool.webp" alt="AI cool">
+      </a>
+      <div class="nav-links">
+        <span class="menu">
+          <a href="index.html">News</a>
+          <div class="submenu">
+            <a href="index.html">Juillet 2026</a>
+          </div>
+        </span>
+        <span class="menu">
+          <a href="evenement-juin-2026.html">Événement</a>
+          <div class="submenu">
+            <a href="evenement-juin-2026.html">Juin 2026</a>
+          </div>
+        </span>
+        <a href="ressources.html#reperes">Repères</a>
+        <a href="ressources.html#outils">Outils</a>
+        <a href="ressources.html#glossaire">Glossaire</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="news-hero" id="top">
+    <span class="page-eyebrow">Ressources · Repères durables</span>
+    <h1>Comprendre l'IA <span class="script">sans jargon</span></h1>
+    <p class="hero-lead">Les repères qui ne périment pas : une mini-histoire de l'IA, les chiffres clés, les usages concrets près de chez nous, les outils, la méthode de prompt, des contenus à suivre et un glossaire complet. À garder sous la main mois après mois.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="#outils">Voir les outils</a>
+      <a class="button warm" href="#glossaire">Ouvrir le glossaire</a>
+      <a class="button" href="glossaire_termes_ia_simple.pdf">Glossaire PDF</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="reperes">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Mini-histoire</span>
+          <h2>De la question de Turing aux agents multimodaux</h2>
+        </div>
+        <p class="lead">Quelques jalons suffisent pour comprendre pourquoi l'IA semble avoir accéléré d'un coup.</p>
+      </div>
+      <div class="timeline">
+        <article class="moment">
+          <time>1950</time>
+          Alan Turing pose la question : une machine peut-elle penser ?
+          <a class="source-link" href="https://academic.oup.com/mind/article/LIX/236/433/986238" target="_blank" rel="noopener">Source</a>
+        </article>
+        <article class="moment">
+          <time>1997</time>
+          Deep Blue bat Garry Kasparov aux échecs.
+          <a class="source-link" href="https://www.ibm.com/history/deep-blue" target="_blank" rel="noopener">Source</a>
+        </article>
+        <article class="moment">
+          <time>2012</time>
+          Le deep learning explose grâce aux données et aux cartes graphiques.
+          <a class="source-link" href="https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html" target="_blank" rel="noopener">Source</a>
+        </article>
+        <article class="moment">
+          <time>2022</time>
+          ChatGPT rend l'IA grand public.
+          <a class="source-link" href="https://openai.com/index/chatgpt/" target="_blank" rel="noopener">Source</a>
+        </article>
+        <article class="moment">
+          <time>2024-2025</time>
+          L'IA devient multimodale : texte, image, voix, vidéo, code et agents.
+          <a class="source-link" href="https://hai.stanford.edu/ai-index/2025-ai-index-report" target="_blank" rel="noopener">Source</a>
+        </article>
+        <article class="moment">
+          <time>Juil. 2026</time>
+          Course resserrée : GPT-5.6, Grok 4.5 et GLM 4.5 compriment les écarts, le prix devient une arme.
+        </article>
+      </div>
+    </section>
+    <section>
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Où en est-on ?</span>
+          <h2>Repères 2025-2026</h2>
+        </div>
+        <p class="lead">Les chiffres de l'infographie donnent l'ordre de grandeur : beaucoup d'argent, beaucoup d'adoption, beaucoup de vitesse.</p>
+      </div>
+      <div class="grid four">
+        <article class="stat">
+          <strong>122 Md$</strong>
+          <span>levés par OpenAI, pour une valorisation indiquée à 852 Md$.</span>
+          <a class="source-link" href="https://www.theguardian.com/technology/2026/mar/31/openai-raises-122-billion-ai-boom" target="_blank" rel="noopener">Source</a>
+        </article>
+        <article class="stat">
+          <strong>965 Md$</strong>
+          <span>valorisation post-money rapportée pour Anthropic en mai 2026, devant OpenAI.</span>
+          <a class="source-link" href="https://www.marketwatch.com/story/anthropic-nears-1-trillion-valuation-leapfrogging-openai-ac2dc81f" target="_blank" rel="noopener">Source</a>
+        </article>
+        <article class="stat">
+          <strong>1,7 Md€</strong>
+          <span>levés par Mistral AI, avec une valorisation indiquée à 11,7 Md€.</span>
+          <a class="source-link" href="https://www.lemonde.fr/economie/article/2025/09/09/ia-la-start-up-francaise-mistral-ai-valorisee-11-7-milliards-d-euros-apres-avoir-leve-1-7-milliard_6640102_3234.html" target="_blank" rel="noopener">Source</a>
+        </article>
+        <article class="stat">
+          <strong>285,9 Md$</strong>
+          <span>d'investissements privés IA aux États-Unis en 2025.</span>
+          <a class="source-link" href="https://hai.stanford.edu/ai-index/2025-ai-index-report" target="_blank" rel="noopener">Source</a>
+        </article>
+        <article class="stat">
+          <strong>200 Md€</strong>
+          <span>annoncés dans le plan européen "AI Continent" pour accélérer l'IA en Europe.</span>
+          <a class="source-link" href="https://digital-strategy.ec.europa.eu/en/news/eu-launches-investai-initiative-mobilise-eu200-billion-investment-artificial-intelligence" target="_blank" rel="noopener">Source</a>
+        </article>
+      </div>
+      <div class="grid three" style="margin-top: 16px;">
+        <article class="card">
+          <span class="card-icon blue" aria-label="États-Unis"><svg><use href="#icon-globe"></use></svg></span>
+          <h3>Plateformes et infrastructure</h3>
+          <p>Domination des investissements privés, des grandes plateformes et de l'infrastructure.</p>
+          <a class="source-link" href="https://hai.stanford.edu/ai-index/2025-ai-index-report" target="_blank" rel="noopener">Source</a>
+        </article>
+        <article class="card">
+          <span class="card-icon orange" aria-label="Chine"><svg><use href="#icon-graph"></use></svg></span>
+          <h3>Progression rapide</h3>
+          <p>Modèles très compétitifs et forte puissance industrielle.</p>
+          <a class="source-link" href="https://hai.stanford.edu/ai-index/2025-ai-index-report" target="_blank" rel="noopener">Source</a>
+        </article>
+        <article class="card">
+          <span class="card-icon green" aria-label="Europe / France"><svg><use href="#icon-shield"></use></svg></span>
+          <h3>Recherche et souveraineté</h3>
+          <p>Recherche solide, volonté de souveraineté et Mistral en vitrine, mais bataille encore difficile.</p>
+          <div class="source-list">
+            <a href="https://www.lemonde.fr/economie/article/2025/09/09/ia-la-start-up-francaise-mistral-ai-valorisee-11-7-milliards-d-euros-apres-avoir-leve-1-7-milliard_6640102_3234.html" target="_blank" rel="noopener">Mistral</a>
+            <a href="https://digital-strategy.ec.europa.eu/en/news/eu-launches-investai-initiative-mobilise-eu200-billion-investment-artificial-intelligence" target="_blank" rel="noopener">Europe</a>
+          </div>
+        </article>
+      </div>
+      <div class="prompt-box" style="margin-top: 16px;">
+        <strong>Message clé :</strong> l'Europe n'est pas absente, mais elle doit aller plus vite.
+        <br><br>
+        <strong>Signal Anthropic :</strong> selon MarketWatch, Anthropic aurait presque triplé sa valorisation depuis février 2026, dépassé OpenAI en valorisation, et vu son revenu annualisé passer de 14 Md$ à 47 Md$ en quelques mois, porté par l'adoption entreprise de Claude et Claude Code.
+        <br><br>
+        <a href="https://www.marketwatch.com/story/anthropic-nears-1-trillion-valuation-leapfrogging-openai-ac2dc81f" target="_blank" rel="noopener">Lire le repère MarketWatch sur Anthropic</a>
+      </div>
+    </section>
+    <section id="modeles">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Derniers modèles · Juillet 2026</span>
+          <h2>Le paysage des modèles, à jour</h2>
+        </div>
+        <p class="lead">Panorama daté : les modèles changent vite, cette photo est celle de juillet 2026. Le vrai signal du moment n'est pas un score, mais la compression des écarts et la baisse des prix.</p>
+      </div>
+      <div class="grid three">
+        <article class="card">
+          <span class="card-icon green" aria-label="OpenAI"><svg><use href="#icon-spark"></use></svg></span>
+          <h3>OpenAI - GPT-5.6</h3>
+          <p>Décliné en trois profils : <strong>Sol</strong> (rapide et économique pour le quotidien), <strong>Terra</strong> (polyvalent, raisonnement solide) et <strong>Luna</strong> (haut de gamme pour les tâches longues et complexes).</p>
+        </article>
+        <article class="card">
+          <span class="card-icon orange" aria-label="xAI"><svg><use href="#icon-graph"></use></svg></span>
+          <h3>xAI - Grok 4.5</h3>
+          <p>Présenté comme trois à quatre fois moins cher que la concurrence et entraîné avec des données de Cursor. L'argument prix rebat les cartes de la compétitivité.</p>
+        </article>
+        <article class="card">
+          <span class="card-icon blue" aria-label="Zhipu"><svg><use href="#icon-chip"></use></svg></span>
+          <h3>Zhipu - GLM 4.5</h3>
+          <p>La montée chinoise se confirme : un modèle très compétitif, souvent open-weight, qui pèse dans le rapport qualité/prix pour les gros volumes et l'automatisation.</p>
+        </article>
+        <article class="card">
+          <span class="card-icon green" aria-label="Anthropic"><svg><use href="#icon-shield"></use></svg></span>
+          <h3>Anthropic - Claude</h3>
+          <p>Après l'épisode Fable 5 / Mythos 5 suspendus en juin, la gamme Claude reste une référence pour le raisonnement profond, l'écriture et le code (Claude Code).</p>
+        </article>
+        <article class="card">
+          <span class="card-icon orange" aria-label="Mistral"><svg><use href="#icon-layers"></use></svg></span>
+          <h3>Mistral</h3>
+          <p>La vitrine européenne : des modèles ouverts et souverains, bon compromis pour rester indépendant des plateformes américaines et chinoises.</p>
+        </article>
+        <article class="card">
+          <span class="card-icon blue" aria-label="Tendance"><svg><use href="#icon-tools"></use></svg></span>
+          <h3>La tendance de fond</h3>
+          <p>Quatre labos américains à la frontière, la Chine qui accélère, l'Europe qui résiste : le classement bouge d'un mois sur l'autre. Choisir un modèle par tâche compte plus que suivre un seul « meilleur ».</p>
+        </article>
+      </div>
+      <div class="prompt-box" style="margin-top: 16px;">
+        <strong>À jour au :</strong> juillet 2026. Ce panorama est éditorial et volontairement simple ; les noms, versions et prix évoluent quasiment chaque mois. À recroiser avec le récap <a href="index.html">News du mois</a>.
+      </div>
+    </section>
+    <section>
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Capacités immédiates</span>
+          <h2>Ce que l'IA sait déjà faire</h2>
+        </div>
+        <p class="lead">Les usages de base sont déjà très puissants quand on les relie à une vraie tâche.</p>
+      </div>
+      <div class="grid three">
+        <article class="card"><h3>Rédiger, résumer, reformuler</h3><p>Transformer un brouillon, clarifier une idée, synthétiser une réunion ou rendre un mail plus professionnel.</p></article>
+        <article class="card"><h3>Traduire et expliquer simplement</h3><p>Adapter le niveau, demander une analogie, créer une explication pour enfant, client ou collègue.</p></article>
+        <article class="card"><h3>Générer images et idées</h3><p>Créer une affiche, un visuel, une idée de logo, une illustration ou plusieurs pistes créatives.</p></article>
+        <article class="card"><h3>Analyser des documents</h3><p>Extraire les points clés d'un PDF, comparer des sources, préparer une FAQ ou une synthèse.</p></article>
+        <article class="card"><h3>Aider à apprendre ou enseigner</h3><p>Créer des quiz, corriger, simplifier, donner des exemples progressifs.</p></article>
+        <article class="card"><h3>Automatiser des tâches répétitives</h3><p>Préparer des relances, classer des informations, enchaîner plusieurs étapes avec des outils.</p></article>
+      </div>
+    </section>
+    <section id="usages">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Usages concrets</span>
+          <h2>Ce que l'IA sait déjà faire près de chez nous</h2>
+        </div>
+        <p class="lead">Le plus important n'est pas de tout connaître. C'est d'oser essayer sur une situation réelle.</p>
+      </div>
+      <div class="grid three">
+        <article class="card"><span class="card-icon green" aria-label="Artisanat"><svg><use href="#icon-tools"></use></svg></span><h3>Gagner du temps terrain</h3><p>Artisans, BTP, jardin, piscine : devis, réponses clients, avant/après, check-lists chantier.</p></article>
+        <article class="card"><span class="card-icon orange" aria-label="Commerce"><svg><use href="#icon-spark"></use></svg></span><h3>Communiquer plus vite</h3><p>Commerces, restos, caves, food trucks : menus, avis Google, promos, posts Instagram, traduction.</p></article>
+        <article class="card"><span class="card-icon blue" aria-label="Association"><svg><use href="#icon-people"></use></svg></span><h3>Organiser sans s'épuiser</h3><p>Associations et bénévoles : affiches, mails, comptes rendus, organisation d'événements.</p></article>
+        <article class="card"><span class="card-icon yellow" aria-label="Apprendre"><svg><use href="#icon-doc"></use></svg></span><h3>Apprendre autrement</h3><p>Parents, élèves, étudiants : explications simples, quiz, révisions, histoires, langues.</p></article>
+        <article class="card"><span class="card-icon green" aria-label="Travail"><svg><use href="#icon-layers"></use></svg></span><h3>Clarifier son travail</h3><p>Indépendants, cadres, consultants : mails, synthèses, offres, brainstorming, comptes rendus.</p></article>
+        <article class="card"><span class="card-icon orange" aria-label="Action"><svg><use href="#icon-graph"></use></svg></span><h3>Passer à l'action</h3><p>Recherche d'emploi et administratif : CV, lettres, préparation d'entretien, formulaires.</p></article>
+      </div>
+    </section>
+    <section id="outils">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Outils</span>
+          <h2>La sélection simple et la sélection avancée</h2>
+        </div>
+        <p class="lead">Pour l'événement, commencer par trois outils simples, puis garder les autres comme bonus pour aller plus loin.</p>
+      </div>
+      <div class="grid three">
+        <article class="card">
+          <span class="card-icon green" aria-label="Débutant"><svg><use href="#icon-spark"></use></svg></span>
+          <h3>ChatGPT</h3>
+          <p>Discuter, rédiger, reformuler, réfléchir. Le meilleur point d'entrée sans setup technique.</p>
+          <a class="source-link" href="https://chatgpt.com/" target="_blank" rel="noopener">Ouvrir</a>
+        </article>
+        <article class="card">
+          <span class="card-icon yellow" aria-label="Documents"><svg><use href="#icon-doc"></use></svg></span>
+          <h3>NotebookLM</h3>
+          <p>Travailler à partir de ses propres sources : résumer, créer une FAQ, une synthèse ou une mind map.</p>
+          <a class="source-link" href="https://notebooklm.google/" target="_blank" rel="noopener">Ouvrir</a>
+        </article>
+        <article class="card">
+          <span class="card-icon orange" aria-label="Créatif"><svg><use href="#icon-image"></use></svg></span>
+          <h3>Génération d'images</h3>
+          <p>Créer une affiche, un visuel, une idée de logo ou une illustration.</p>
+          <a class="source-link" href="https://chatgpt.com/" target="_blank" rel="noopener">Ouvrir</a>
+        </article>
+      </div>
+      <div class="table-wrap" style="margin-top: 22px;">
+        <div class="tool-row tool-head">
+          <div>Besoin</div><div>Outil</div><div>Meilleur cas d'usage</div><div>Basique ?</div>
+        </div>
+        <div class="tool-row"><div>Assistant IA général</div><div><strong>ChatGPT / GPT-5.6</strong><br>Réfléchir, écrire, synthétiser, expliquer, créer des plans.</div><div>Quand on veut un cerveau polyvalent simple à utiliser.</div><div>Oui, point d'entrée.</div></div>
+        <div class="tool-row"><div>Images IA</div><div><strong>ChatGPT Images 2.0</strong><br>Créer ou modifier des visuels par conversation.</div><div>Posts réseaux, visuels de marque, mockups, idées créatives.</div><div>Oui, recommandé.</div></div>
+        <div class="tool-row"><div>Vidéo IA</div><div><strong>Seedance 2.0</strong><br>Générer des vidéos IA avancées.</div><div>Clips courts, vidéos créatives, rendu premium.</div><div>Plutôt avancé.</div></div>
+        <div class="tool-row"><div>Pub / Ads</div><div><strong>GoMarble</strong><br>Analyser et optimiser des campagnes publicitaires.</div><div>Quand on gère Meta ou Google Ads et qu'on veut améliorer les performances.</div><div>Si on fait déjà de la pub.</div></div>
+        <div class="tool-row"><div>LLM bon rapport qualité/prix</div><div><strong>Grok 4.5</strong><br>Annoncé trois à quatre fois moins cher que la concurrence, via API.</div><div>Gros volumes, automatisations, agents, tâches longues.</div><div>Profil avancé.</div></div>
+        <div class="tool-row"><div>LLM économique</div><div><strong>GLM 4.5</strong><br>Modèle chinois souvent open-weight, alternative moins chère pour beaucoup de texte ou d'automatisation.</div><div>Budget serré, gros volume, tests API.</div><div>Public tech.</div></div>
+        <div class="tool-row"><div>LLM premium</div><div><strong>Claude Opus 4.8</strong><br>Raisonnement profond, écriture et code haut niveau.</div><div>Cas complexes où la qualité prime sur le coût.</div><div>Pas en premier choix.</div></div>
+        <div class="tool-row"><div>DEV / code</div><div><strong>Claude / Claude Code</strong><br>Comprendre une base de code, corriger, refactorer, écrire des tests ou piloter un agent de développement.</div><div>Pour les développeurs, les sites, scripts, automatisations et projets techniques.</div><div>Oui si on développe ; Claude Code est plus technique.</div></div>
+        <div class="tool-row"><div>Agents IA 24/7</div><div><strong>Hermes Agent sur VPS</strong><br>Agent autonome qui tourne en continu.</div><div>Automatiser des tâches récurrentes avec mémoire.</div><div>Technique.</div></div>
+        <div class="tool-row"><div>SEO complet</div><div><strong>Distribb</strong><br>Articles SEO, backlinks et stratégie de visibilité.</div><div>Gagner du trafic organique sans tout faire à la main.</div><div>Oui si la personne a un site.</div></div>
+        <div class="tool-row"><div>Backlinks SEO</div><div><strong>Dofollowback</strong><br>Obtenir des liens dofollow.</div><div>Booster l'autorité d'un site existant.</div><div>Usage SEO spécifique.</div></div>
+      </div>
+    </section>
+    <section id="prompt">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Prompt</span>
+          <h2>La formule qui change tout</h2>
+        </div>
+        <p class="lead">Un bon prompt n'est pas magique. Il donne simplement le contexte, l'objectif, le public et le format attendu.</p>
+      </div>
+      <div class="prompt-box">
+        <div class="prompt-formula">
+          <div class="prompt-step">Contexte</div>
+          <div class="prompt-step">Objectif</div>
+          <div class="prompt-step">Public</div>
+          <div class="prompt-step">Format / ton</div>
+        </div>
+        <p class="prompt-example">Tu es mon assistant clair et pédagogique. Mon contexte : je suis artisan près d'Aix. Mon objectif : répondre à un client qui demande un devis. Le public : un particulier. Le format : un message simple, professionnel et chaleureux.</p>
+      </div>
+      <div class="grid two" style="margin-top: 18px;">
+        <article class="card">
+          <h3>Les bons réflexes</h3>
+          <p>Vérifier les infos importantes, demander des exemples concrets, comparer plusieurs réponses, préciser, corriger et recommencer.</p>
+        </article>
+        <article class="card">
+          <h3>Les limites à garder en tête</h3>
+          <p>Ne pas partager de données sensibles, garder son esprit critique, vérifier les chiffres et distinguer brouillon utile et vérité vérifiée.</p>
+        </article>
+      </div>
+    </section>
+    <section id="multimedia">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Multimédia</span>
+          <h2>Podcasts et vidéos à connaître</h2>
+        </div>
+        <p class="lead">Quelques contenus faciles à partager pour continuer à explorer après la rencontre : culture générale IA, remix créatifs, veille et second cerveau.</p>
+      </div>
+      <div class="media-grid">
+        <a class="media-card" href="https://www.youtube.com/watch?v=6QBy_Oa5ZmM" target="_blank" rel="noopener">
+          <div class="media-thumb">
+            <img src="https://img.youtube.com/vi/6QBy_Oa5ZmM/hqdefault.jpg" alt="Vidéo YouTube sur l'IA.">
+          </div>
+          <div class="media-body">
+            <span class="media-note">14 millions de vues</span>
+            <h3>Papaoutai, remix IA à gros impact</h3>
+            <p>Un exemple très parlant pour montrer que l'IA touche déjà la voix, la musique et la culture populaire.</p>
+          </div>
+        </a>
+        <a class="media-card" href="https://www.youtube.com/watch?v=uoVPUH3cxlU" target="_blank" rel="noopener">
+          <div class="media-thumb">
+            <img src="https://img.youtube.com/vi/uoVPUH3cxlU/hqdefault.jpg" alt="Remix IA autour de Papaoutai.">
+          </div>
+          <div class="media-body">
+            <span class="media-note">Remix IA</span>
+            <h3>Un autre remix IA de Papaoutai</h3>
+            <p>À comparer avec le premier pour discuter imitation, créativité, droits, émotion et perception du public.</p>
+          </div>
+        </a>
+        <a class="media-card" href="https://www.youtube.com/watch?v=TX5YmIthG14" target="_blank" rel="noopener">
+          <div class="media-thumb">
+            <img src="https://img.youtube.com/vi/TX5YmIthG14/hqdefault.jpg" alt="Vidéo Silicon Carne sur l'état de l'IA.">
+          </div>
+          <div class="media-body">
+            <span class="media-note">Podcast 2x/semaine</span>
+            <h3>Silicon Carne</h3>
+            <p>Explique très bien où en est l'IA, avec une veille régulière et accessible.</p>
+          </div>
+        </a>
+        <a class="media-card" href="https://www.youtube.com/watch?v=IubQUC9TL2w" target="_blank" rel="noopener">
+          <div class="media-thumb">
+            <img src="https://img.youtube.com/vi/IubQUC9TL2w/hqdefault.jpg" alt="Vidéo d'Eliott Meunier sur le second cerveau.">
+          </div>
+          <div class="media-body">
+            <span class="media-note">Vulgarisation FR</span>
+            <h3>Eliott Meunier</h3>
+            <p>Très clair pour comprendre l'IA, les usages personnels et l'idée de second cerveau.</p>
+          </div>
+        </a>
+      </div>
+      <div class="prompt-box" style="margin-top: 18px;">
+        <strong>À tester :</strong> comparer deux remix IA, un podcast de veille et une vidéo de vulgarisation. On voit vite que l'IA n'est pas qu'un outil de texte : c'est déjà un média culturel complet.
+      </div>
+    </section>
+    <section id="glossaire">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Glossaire</span>
+          <h2>Les mots utiles pour ne pas subir la conversation</h2>
+        </div>
+        <p class="lead">Version condensée du glossaire PDF : les termes à connaître pour comprendre les discussions IA sans se perdre.</p>
+      </div>
+      <div class="glossary-controls">
+        <span class="label">Trier :</span>
+        <button type="button" class="sort-btn" id="sort-alpha" aria-pressed="true">A → Z</button>
+        <button type="button" class="sort-btn" id="sort-rank" aria-pressed="false">Par importance</button>
+        <span class="label" id="sort-hint">Du plus courant au plus pointu quand on trie par importance.</span>
+      </div>
+      <div class="grid four" id="glossaire-grid">
+        <article class="term" data-name="Agent IA" data-rank="1"><strong>Agent IA</strong><p>IA capable de planifier, utiliser des outils et poursuivre un objectif.</p><span class="term-tier t1">Essentiel</span></article>
+        <article class="term" data-name="Agentic AI" data-rank="2"><strong>Agentic AI</strong><p>IA orientée action, capable d'étapes, d'outils et de corrections.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="Agentic OS" data-rank="3"><strong>Agentic OS</strong><p>Système personnel ou pro piloté par agents IA.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Agentic workflow" data-rank="3"><strong>Agentic workflow</strong><p>Workflow où plusieurs étapes sont pilotées par IA ou agents.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="AI governance" data-rank="3"><strong>AI governance</strong><p>Règles et responsabilités pour encadrer l'usage IA.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="AI safety" data-rank="2"><strong>AI safety</strong><p>Rendre les IA sûres, fiables, contrôlables et non dangereuses.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="AI-first" data-rank="3"><strong>AI-first</strong><p>Approche où l'IA est au cœur de la stratégie produit ou business.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Alignement" data-rank="2"><strong>Alignement</strong><p>Rendre une IA compatible avec intentions, règles et attentes humaines.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="Benchmark" data-rank="2"><strong>Benchmark</strong><p>Test standardisé pour comparer des modèles.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="Biais" data-rank="1"><strong>Biais</strong><p>Tendance à produire des réponses déséquilibrées ou stéréotypées.</p><span class="term-tier t1">Essentiel</span></article>
+        <article class="term" data-name="Contexte" data-rank="1"><strong>Contexte</strong><p>Informations disponibles dans la conversation ou les fichiers.</p><span class="term-tier t1">Essentiel</span></article>
+        <article class="term" data-name="Copilot" data-rank="1"><strong>Copilot</strong><p>Assistant IA qui aide l'humain sans agir totalement seul.</p><span class="term-tier t1">Essentiel</span></article>
+        <article class="term" data-name="Dataset" data-rank="2"><strong>Dataset</strong><p>Jeu de données utilisé pour entraîner, tester ou évaluer.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="Distillation" data-rank="3"><strong>Distillation</strong><p>Petit modèle entraîné à imiter un grand modèle.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Données synthétiques" data-rank="3"><strong>Données synthétiques</strong><p>Données générées artificiellement pour entraîner ou tester.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Edge AI" data-rank="3"><strong>Edge AI</strong><p>IA exécutée près de la source des données.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Embeddings" data-rank="2"><strong>Embeddings</strong><p>Représentation numérique du sens d'un texte, document ou image.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="Eval" data-rank="3"><strong>Eval</strong><p>Évaluation d'un modèle sur une tâche précise.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Explicabilité" data-rank="3"><strong>Explicabilité</strong><p>Comprendre pourquoi une IA a donné une réponse.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Fallback model" data-rank="3"><strong>Fallback model</strong><p>Modèle de secours si le principal échoue ou coûte trop cher.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Fenêtre de contexte" data-rank="2"><strong>Fenêtre de contexte</strong><p>Quantité maximale d'informations prises en compte en une fois.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="Fine-tuning" data-rank="2"><strong>Fine-tuning</strong><p>Réentraînement spécialisé sur des données particulières.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="Function calling" data-rank="3"><strong>Function calling</strong><p>Appel structuré d'une fonction ou API par un modèle.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Grounding" data-rank="2"><strong>Grounding</strong><p>Ancrer la réponse dans des sources fiables ou des données fournies.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="Hallucination" data-rank="1"><strong>Hallucination</strong><p>Quand l'IA invente une information fausse mais la présente comme vraie.</p><span class="term-tier t1">Essentiel</span></article>
+        <article class="term" data-name="Human-in-the-loop" data-rank="2"><strong>Human-in-the-loop</strong><p>L'IA propose ou exécute, l'humain vérifie ou valide.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="IA générative" data-rank="1"><strong>IA générative</strong><p>IA capable de produire texte, image, code, audio, vidéo, idées ou plans.</p><span class="term-tier t1">Essentiel</span></article>
+        <article class="term" data-name="Inference" data-rank="2"><strong>Inference</strong><p>Moment où le modèle produit une réponse.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="LLM" data-rank="1"><strong>LLM</strong><p>Grand modèle de langage derrière ChatGPT, Claude, Gemini, Mistral ou Llama.</p><span class="term-tier t1">Essentiel</span></article>
+        <article class="term" data-name="Mémoire" data-rank="2"><strong>Mémoire</strong><p>Informations conservées entre plusieurs conversations.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="Moat IA" data-rank="3"><strong>Moat IA</strong><p>Avantage défensif difficile à copier : données, distribution, expertise, marque.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Model routing" data-rank="3"><strong>Model routing</strong><p>Choix automatique du bon modèle selon la tâche.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Modèle multimodal" data-rank="1"><strong>Modèle multimodal</strong><p>Modèle qui traite texte, image, audio, vidéo, fichiers ou actions.</p><span class="term-tier t1">Essentiel</span></article>
+        <article class="term" data-name="MoE" data-rank="3"><strong>MoE</strong><p>Architecture où certains experts internes sont activés selon la demande.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="On-device AI" data-rank="3"><strong>On-device AI</strong><p>IA qui fonctionne directement sur l'appareil de l'utilisateur.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Open-weight" data-rank="2"><strong>Open-weight</strong><p>Modèle dont les poids sont disponibles.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="Orchestration" data-rank="3"><strong>Orchestration</strong><p>Organisation de plusieurs outils, modèles ou agents.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Prompt" data-rank="1"><strong>Prompt</strong><p>Instruction donnée à une IA.</p><span class="term-tier t1">Essentiel</span></article>
+        <article class="term" data-name="Prompt engineering" data-rank="2"><strong>Prompt engineering</strong><p>Art de formuler une demande claire pour obtenir un meilleur résultat.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="RAG" data-rank="2"><strong>RAG</strong><p>L'IA cherche dans une base documentaire avant de générer sa réponse.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="Red teaming" data-rank="3"><strong>Red teaming</strong><p>Test agressif pour trouver les failles d'un système IA.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Résilience IA" data-rank="3"><strong>Résilience IA</strong><p>Capacité à fonctionner malgré erreurs, données imparfaites ou pannes.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Robustesse" data-rank="3"><strong>Robustesse</strong><p>Bien fonctionner quand les données changent ou sont inattendues.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Singularité" data-rank="1"><strong>Singularité</strong><p>Moment hypothétique où l'IA dépasserait durablement l'intelligence humaine et s'auto-améliorerait, rendant le futur difficile à prévoir. Très évoquée, très débattue.</p><span class="term-tier t1">Essentiel</span></article>
+        <article class="term" data-name="SLM" data-rank="3"><strong>SLM</strong><p>Petit modèle de langage, utile pour tâches ciblées ou locales.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Société IA-native" data-rank="3"><strong>Société IA-native</strong><p>Entreprise conçue dès le départ autour de l'IA.</p><span class="term-tier t3">Avancé</span></article>
+        <article class="term" data-name="Token" data-rank="1"><strong>Token</strong><p>Morceau de texte utilisé par les modèles.</p><span class="term-tier t1">Essentiel</span></article>
+        <article class="term" data-name="Tool use" data-rank="2"><strong>Tool use</strong><p>Capacité d'un modèle à utiliser navigateur, email, code, API, etc.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="Training data" data-rank="2"><strong>Training data</strong><p>Données utilisées pour entraîner un modèle.</p><span class="term-tier t2">Intermédiaire</span></article>
+        <article class="term" data-name="Vector database" data-rank="3"><strong>Vector database</strong><p>Base spécialisée pour stocker et chercher des embeddings.</p><span class="term-tier t3">Avancé</span></article>
+      </div>
+    </section>
+    <section id="supports">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Supports visuels</span>
+          <h2>Les trois supports à ouvrir en grand</h2>
+        </div>
+        <p class="lead">Clique sur une image pour ouvrir le fichier original en grand. Pratique pour ceux qui n'auront pas les supports papier.</p>
+      </div>
+      <div class="image-strip">
+        <figure>
+          <a class="image-link" href="ia-cool-1.png" target="_blank" rel="noopener">
+            <img src="ia-cool-1.png" alt="Infographie complète L'IA à la cool, page 1.">
+          </a>
+          <figcaption>Page 1 : histoire, repères 2025-2026, compétition mondiale et capacités de base.</figcaption>
+        </figure>
+        <figure>
+          <a class="image-link" href="ia-cool-2.png" target="_blank" rel="noopener">
+            <img src="ia-cool-2.png" alt="Infographie complète L'IA à la cool, page 2.">
+          </a>
+          <figcaption>Page 2 : usages locaux, outils simples, prompt, bons réflexes, enfants et mini-défis.</figcaption>
+        </figure>
+        <figure>
+          <a class="image-link" href="L_IA_et_l_avenir_humain2.png" target="_blank" rel="noopener">
+            <img src="L_IA_et_l_avenir_humain2.png" alt="Support visuel L'IA et l'avenir humain.">
+          </a>
+          <figcaption>L'IA et l'avenir humain : support complémentaire à consulter en grand.</figcaption>
+        </figure>
+      </div>
+      <div class="download-band" style="margin-top: 22px;">
+        <div>
+          <strong>Glossaire PDF</strong>
+          <p>Le document complet reste disponible en téléchargement.</p>
+        </div>
+        <a class="button" href="glossaire_termes_ia_simple.pdf">Ouvrir le PDF</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Pour toute question ou demande d'information, merci de nous contacter via notre événement Facebook :
+    <a href="https://www.facebook.com/events/1442594630888342/" target="_blank" rel="noopener">https://www.facebook.com/events/1442594630888342/</a>
+  </footer>
+
+  <script>
+    (function () {
+      var grid = document.getElementById('glossaire-grid');
+      if (!grid) return;
+      var terms = Array.prototype.slice.call(grid.querySelectorAll('.term'));
+      var btnAlpha = document.getElementById('sort-alpha');
+      var btnRank = document.getElementById('sort-rank');
+      function key(el) {
+        return el.getAttribute('data-name') || el.querySelector('strong').textContent;
+      }
+      function byAlpha(a, b) {
+        return key(a).localeCompare(key(b), 'fr', { sensitivity: 'base' });
+      }
+      function apply(byRank) {
+        terms.slice().sort(byRank ? function (a, b) {
+          var d = (+a.getAttribute('data-rank')) - (+b.getAttribute('data-rank'));
+          return d !== 0 ? d : byAlpha(a, b);
+        } : byAlpha).forEach(function (t) { grid.appendChild(t); });
+        grid.classList.toggle('by-rank', byRank);
+        btnAlpha.setAttribute('aria-pressed', String(!byRank));
+        btnRank.setAttribute('aria-pressed', String(byRank));
+      }
+      btnAlpha.addEventListener('click', function () { apply(false); });
+      btnRank.addEventListener('click', function () { apply(true); });
+      apply(false);
+    })();
+  </script>
+</body>
+</html>

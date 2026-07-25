@@ -590,7 +590,7 @@
 
     .tool-row {
       display: grid;
-      grid-template-columns: minmax(220px, 0.42fr) minmax(0, 1fr) minmax(0, 1fr) minmax(170px, 0.4fr);
+      grid-template-columns: minmax(220px, 0.42fr) minmax(0, 1fr) minmax(0, 1fr) minmax(170px, 0.4fr) minmax(130px, 0.3fr);
       border: 1px solid var(--line);
       border-bottom: 0;
       background: var(--paper);
@@ -767,7 +767,7 @@
       }
 
       .tool-row {
-        min-width: 900px;
+        min-width: 1020px;
       }
 
       .section-head {

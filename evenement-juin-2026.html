@@ -27,28 +27,50 @@
 
   <nav class="site-nav" aria-label="Navigation principale">
     <div class="nav-inner">
-      <a class="brand" href="index.html" aria-label="Accueil AI cool">
+      <a class="brand" href="index.html" aria-label="Accueil AI cool - L'IA à l'apéro">
         <img class="brand-logo" src="AIcool.webp" alt="AI cool">
+        <span class="brand-tagline">
+          <strong>L'IA à l'apéro</strong>
+          <span>Les vraies news IA du mois, lues en 3 minutes</span>
+        </span>
       </a>
       <div class="nav-links">
+        <a href="index.html">Accueil</a>
         <span class="menu">
-          <a href="index.html">News</a>
+          <a href="index.html#frise">Les mois</a>
           <div class="submenu">
-            <a href="index.html">Juillet 2026</a>
+            <a href="index.html">Novembre 2026 (À la une)</a>
+            <a href="news-octobre-2026.html">Octobre 2026</a>
+            <a href="news-septembre-2026.html">Septembre 2026</a>
+            <a href="news-aout-2026.html">Août 2026</a>
+            <a href="news-juillet-2026.html">Juillet 2026</a>
+            <a class="current" href="evenement-juin-2026.html">Juin 2026 (Événement)</a>
           </div>
         </span>
         <span class="menu">
-          <a href="evenement-juin-2026.html">Événement</a>
+          <a href="ressources.html">Ressources</a>
           <div class="submenu">
-            <a class="current" href="evenement-juin-2026.html">Juin 2026</a>
+            <a href="ressources.html#reperes">Repères 2026</a>
+            <a href="ressources.html#modeles">Modèles à jour</a>
+            <a href="ressources.html#outils">Outils</a>
+            <a href="ressources.html#glossaire">Glossaire</a>
           </div>
         </span>
-        <a href="ressources.html#reperes">Repères</a>
-        <a href="ressources.html#outils">Outils</a>
-        <a href="ressources.html#glossaire">Glossaire</a>
+        <a href="#newsletter">Newsletter</a>
+        <a class="nav-cta" href="https://webiwant.com/fr/creation-site-internet/?utm_source=aicool&amp;utm_medium=nav&amp;utm_campaign=site7jours&amp;utm_content=juin-2026" target="_blank" rel="noopener">Site 7 Jours · 390 €</a>
       </div>
     </div>
   </nav>
+
+  <div class="month-bar" aria-label="Accès rapide aux mois">
+    <span class="month-bar-label">Frise 2026 :</span>
+    <a class="month-pill" href="index.html">Nov. 2026</a>
+    <a class="month-pill" href="news-octobre-2026.html">Oct. 2026</a>
+    <a class="month-pill" href="news-septembre-2026.html">Sept. 2026</a>
+    <a class="month-pill" href="news-aout-2026.html">Août 2026</a>
+    <a class="month-pill" href="news-juillet-2026.html">Juil. 2026</a>
+    <a class="month-pill current" href="evenement-juin-2026.html">Juin 2026</a>
+  </div>
 
   <header class="hero" id="top">
     <div class="hero-copy">
@@ -653,11 +675,55 @@
         <a class="button" href="glossaire_termes_ia_simple.pdf">Ouvrir le PDF</a>
       </div>
     </section>
+
+    <section id="passer-action">
+      <div class="offer-cta">
+        <img class="offer-avatar" src="David.png" alt="David Loyer">
+        <div>
+          <span class="offer-eyebrow">Offre · Site 7 Jours</span>
+          <h3>L'IA ne vous remplacera pas tout de suite. En attendant, elle peut vous faire un site en 7 jours.</h3>
+          <p>390 €, livré par David. Un vrai site vitrine rapide, propre et prêt à convertir, construit avec les meilleurs outils IA et validé par un humain.</p>
+        </div>
+        <div class="offer-action">
+          <a class="button warm" href="https://webiwant.com/fr/creation-site-internet/?utm_source=aicool&amp;utm_medium=news_cta&amp;utm_campaign=site7jours&amp;utm_content=juin-2026" target="_blank" rel="noopener">Voir l'offre à 390 €</a>
+          <span class="offer-note">Livré en 7 jours par Webiwant</span>
+        </div>
+      </div>
+
+      <div class="newsletter-band" id="newsletter">
+        <div>
+          <span class="meta">Newsletter mensuelle · AI cool</span>
+          <h3>Un seul email par mois. Que les pépites.</h3>
+          <p>Les 3 ou 4 vrais tournants de l'IA en français simple, pour comprendre l'évolution sans y passer vos soirées. Zéro spam, désinscription en un clic.</p>
+        </div>
+        <form class="newsletter-form js-newsletter-form" action="#" method="post">
+          <input type="hidden" name="source" value="evenement-juin-2026">
+          <label for="nl-email-jun" style="position:absolute;left:-9999px;">Votre adresse email</label>
+          <input id="nl-email-jun" type="email" name="email" required placeholder="votre@email.fr" autocomplete="email">
+          <button type="submit">Recevoir le récap</button>
+          <p class="newsletter-status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <nav class="month-pager" aria-label="Navigation entre les mois">
+        <a href="index.html#frise">↑ Retour à la frise 2026</a>
+        <a href="news-juillet-2026.html">Juillet 2026 : Grok 4.5, Apple vs OpenAI →</a>
+      </nav>
+    </section>
   </main>
 
-  <footer>
-    Pour toute question ou demande d'information, merci de nous contacter via notre événement Facebook :
-    <a href="https://www.facebook.com/events/1442594630888342/" target="_blank" rel="noopener">https://www.facebook.com/events/1442594630888342/</a>
+  <footer class="site-footer">
+    <div>
+      <strong>AI cool</strong> - L'actualité IA qui compte vraiment, sans jargon. Par David Loyer.
+      (<a href="https://www.facebook.com/events/1442594630888342/" target="_blank" rel="noopener">Archive événement Facebook Cabriès</a>)
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Novembre 2026</a>
+      <a href="index.html#frise">Frise 2026</a>
+      <a href="ressources.html">Ressources</a>
+      <a href="https://webiwant.com/fr/creation-site-internet/?utm_source=aicool&amp;utm_medium=footer&amp;utm_campaign=site7jours&amp;utm_content=juin-2026" target="_blank" rel="noopener">Site en 7 jours (390 €)</a>
+    </div>
   </footer>
+  <script src="site.js" defer></script>
 </body>
 </html>
